@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import confetti from 'canvas-confetti';
@@ -5,7 +6,7 @@ import clsx from 'clsx';
 
 // Images
 import img1 from './assets/images/img-3.jpg';
-import img2 from './assets/images/img-2.png';
+import img2 from './assets/images/img-2.jpg';
 import img3 from './assets/images/img-1.jpg';
 import img4 from './assets/images/img-4.jpg';
 
