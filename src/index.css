@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  body {
+    @apply bg-val-bg text-val-dark font-sans antialiased overflow-x-hidden;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom unexpected classes */
+.glass-card {
+  @apply bg-white/30 backdrop-blur-md border border-white/40 shadow-xl rounded-2xl;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-val-red to-val-dark;
+}
