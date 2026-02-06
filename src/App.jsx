@@ -9,6 +9,7 @@ import img1 from './assets/images/img-3.jpg';
 import img2 from './assets/images/img-2.jpg';
 import img3 from './assets/images/img-1.jpg';
 import img4 from './assets/images/img-4.jpg';
+import loveGif from './assets/images/love.gif';
 
 function App() {
   const [ accepted, setAccepted ] = useState(false);
@@ -62,9 +63,14 @@ function App() {
           transition={{ type: "spring", bounce: 0.5 }}
           className="z-10 bg-white/40 backdrop-blur-xl p-8 rounded-3xl shadow-2xl border border-white/50 max-w-lg w-full"
         >
-          <h1 className="font-cursive text-6xl md:text-8xl text-val-red mb-6 drop-shadow-sm">
-            Woooooow!!! ❤️
+          <h1 className="font-cursive text-6xl md:text-8xl text-val-red mb-4 drop-shadow-sm">
+            Woooooow!!!
           </h1>
+
+          <div className="w-48 h-48 md:w-64 md:h-64 mx-auto mb-3">
+            <img src={loveGif} alt="Love Teddy" className="w-full h-full object-contain drop-shadow-lg" />
+          </div>
+          
           <p className="font-sans text-2xl md:text-3xl text-val-dark mb-8 font-light">
             Thank you for making me the happiest man alive, Thelma! 🌹
           </p>
