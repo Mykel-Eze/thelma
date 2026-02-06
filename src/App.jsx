@@ -173,7 +173,7 @@ function App() {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleYes}
-              className="bg-val-red text-white font-sans text-xl md:text-2xl font-bold py-4 px-12 rounded-full shadow-lg hover:shadow-val-red/50 hover:bg-val-dark transition-all z-10"
+              className="bg-val-red text-white cursor-pointer font-sans text-xl md:text-2xl font-bold py-4 px-12 rounded-full shadow-lg hover:shadow-val-red/50 hover:bg-val-dark transition-all z-10"
             >
               YES, I will! 💖
             </motion.button>
